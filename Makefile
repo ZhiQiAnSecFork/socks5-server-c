@@ -2,7 +2,7 @@
 CC = gcc
 CFLAGS = -c -W -std=gnu99
 CFLAGS += $(CFLAG)
-LDFLAGS = -lm
+LDFLAGS = -lm -static
 
 all: server
 
